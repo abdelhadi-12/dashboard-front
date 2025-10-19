@@ -1,0 +1,35 @@
+.sb-wrapper {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+  background: #f8f9fc;
+}
+.sb-wrapper.collapsed {
+  grid-template-columns: 72px 1fr;
+}
+
+.sb-main {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.sb-topbar {
+  height: 56px;
+  background: #ffffff;
+  border-bottom: 1px solid rgba(0,0,0,.05);
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.sb-content {
+  overflow: auto;
+}
+
+.sb-footer {
+  border-top: 1px solid rgba(0,0,0,.05);
+  background: #ffffff;
+}
