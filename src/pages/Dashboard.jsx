@@ -15,7 +15,7 @@ import {
 } from "recharts";
 
 // ⚙️ adapte si besoin (localhost/127.0.0.1 et port)
-const API = "http://127.0.0.1:8000";
+const API = "https://dashbord-back.onrender.com";
 
 // 🎨 Palette
 const COLORS = ["#4e73df", "#1cc88a", "#36b9cc", "#f6c23e", "#e74a3b", "#858796"];
