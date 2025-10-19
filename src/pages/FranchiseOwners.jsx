@@ -7,7 +7,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from "recharts";
 
-const API = import.meta.env?.VITE_API_URL || "http://127.0.0.1:8000"; // adapte si besoin
+const API = import.meta.env?.VITE_API_URL || "https://dashbord-back.onrender.com"; // adapte si besoin
 const COLORS = ["#4e73df", "#1cc88a", "#f6c23e", "#e74a3b", "#36b9cc", "#858796"];
 
 // helpers
